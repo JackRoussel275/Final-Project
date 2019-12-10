@@ -5,12 +5,32 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="code.js"></script>
     <title>Cookie Clicker</title>
+    <style>
+    /* button {
+      height: 208px;
+      width: 208px;
+    } */
+    </style>
   </head>
   <body>
-    <button type="button" name="button" class="btn btn-danger btn-lg btn-block" onclick="count()" style="background-image: url(https://securedata2.finalsite.com/cf78/altamont/data/media/fullsize/351.jpg?v=100417134405)">>Cookie</button>
+    <div class="row">
+      <div class="col"></div>
+      <div class="col">
+      <h1 align="center" id="counter">0</h1>
+      <h2 align="center">cookies clicked</h2>
+      </div>
+      <div class="col"></div>
+    </div>
+    <div class="row text-center">
+      <div class="col"></div>
+      <div class="col" style="padding-left: 210px;">
+        <button type="button" name="button" class="btn btn-danger btn-lg btn-block" onclick="count()" style="background-image: url(https://upload.wikimedia.org/wikipedia/en/5/59/Altamont_School_seal.png); background-repeat:no-repeat;
+    background-size:auto; background-size:cover; width: 208px; height: 208px"> </button>
+      </div>
+      <div class="col"></div>
+    </div>
     <div class="main_container" id="id_main_container">
      <div class="container_inner" id="display_div_id">
-       <h1 id="counter">0</h1>
      </div>
    </div>
   </body>
