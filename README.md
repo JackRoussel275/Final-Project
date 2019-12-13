@@ -1,3 +1,1 @@
-# Final-Project
-Cookie Clicker
-Cook Click
+# Cook Click
