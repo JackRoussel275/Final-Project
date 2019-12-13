@@ -31,13 +31,27 @@
  // }
 
 
+
+
 function count() {
- var currentClick = document.getElementById("counter").innerHTML;
- var newCount = parseInt(currentClick) + 1;
+  var currentClick = document.getElementById("counter").innerHTML;
+  var newCount = parseInt(currentClick) + 1;
  console.log(currentClick + " " + newCount);
  document.getElementById("counter").innerHTML = newCount;
 }
 
-function  click() {
-  
+function timecount() {
+
+}
+
+
+
+function clickCount() {
+  console.log("function?");
+  var newCount=document.getElementById("counter").innerHTML;
+  if (newCount > 5) {
+    document.getElementById("counter").innerHTML = newCount-5;
+    console.log("test");
+    }
+  }
 }
